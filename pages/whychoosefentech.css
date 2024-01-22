@@ -1,0 +1,482 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .top-header {
+    height: 40px;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    color: #80a640;
+    font-size: 14px;
+    border-bottom: solid rgb(235, 235, 235);
+    border-width: 0.25px;
+  }
+  .top-header .leftside .hi {
+    font-size: 9px;
+    border: 2px solid #80a640;
+    padding: 1px 1px 0 1px;
+  
+    margin-right: 5px;
+  }
+  .top-header .rightside {
+    color: rgb(121, 121, 121);
+  }
+  .top-header .rightside .number {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid rgb(188, 188, 188);
+  }
+  
+  
+  
+  /* NAVBAR */
+  
+  .navbar {
+    height: 90px;
+    width: 100%;
+    /* background-color: beige; */
+  
+    color: #2a541f;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 0 40px;
+  }
+  .navbar .logo img {
+    height: 60px;
+  }
+  .navbar .links ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .navbar .links a {
+    text-decoration: none;
+    color: #2a541f;
+    transition: 0.25s ease-in-out;
+  }
+  .navbar .links a:hover {
+    color: #6a961f;
+  }
+  
+  .navbar .cta .contact-us-btn {
+    height: 40px;
+    width: 120px;
+    background-color: #6a961f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+  }
+  .navbar .cta .contact-us-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar .cta .contact-us-btn:hover {
+    background-color: rgb(52, 52, 52);
+  }
+
+
+
+
+  .why-choose-fentech-header{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+  }
+  .why-choose-fentech-header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .why-choose-fentech-header .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.655);
+    /* z-index: 10; */
+  }
+  .why-choose-fentech-header .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+  }
+
+
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 80px;
+}
+
+.wrapper .flexbox1{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    gap: 40px;
+}
+.wrapper .flexbox1 .leftside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper .flexbox1 .leftside h1{
+    color: #0d3c00;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.wrapper .flexbox1 .leftside p{
+    color: #484848;
+    font-size: 18px;
+    line-height: 30px;
+}
+.wrapper .flexbox1 .rightside{
+    flex: 1;
+    background-color: #484848;
+}
+
+.wrapper .flexbox2{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    gap: 40px;
+}
+.wrapper .flexbox2 .leftside{
+    flex: 4;
+    
+}
+.wrapper .flexbox2 .leftside .flexgrid{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .flexbox2 .leftside .flexgrid .feature-card{
+    height: 225px;
+    width: 300px;
+}
+.wrapper .flexbox2 .leftside .flexgrid .feature-card h3{
+    color: #2a541f;
+    margin-bottom: 15px;
+}
+.wrapper .flexbox2 .leftside .flexgrid .feature-card p{
+    color: #5e5e5e;
+    line-height: 25px;
+}
+.wrapper .flexbox2 .rightside{
+    flex: 3.5;
+    overflow: hidden;
+}
+.wrapper .benefits{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 40vh;
+}
+.wrapper .benefits h1{
+    color: #2a541f;
+}
+.wrapper .benefits p{
+    color: #6e6e6e;
+}
+
+
+  
+.contact-us {
+    height: 80vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-us .heading {
+    font-size: 25px;
+    color: rgb(38, 38, 38);
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .contact-us .grid {
+    width: 100%;
+    /* height: 100%; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 49% 49%;
+    /* grid-template-rows: auto auto;s */
+  }
+  .contact-us input {
+    padding: 10px;
+    font-size: 16px;
+    height: 50px;
+    border: solid rgb(223, 223, 223);
+    border-width: 0.2px;
+    /* width: 48%; */
+    /* margin: 10px; */
+  }
+  .contact-us textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: solid rgb(223, 223, 223);
+    border-width: 0.2px;
+  }
+  .contact-us .submit-btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(38, 38, 38);
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+  }
+  .contact-us .submit-btn:hover {
+    background-color: #6e6e6e;
+  }
+  
+  .footer {
+    height: 100vh;
+    width: 100%;
+    background-color: #0d3c00;
+    padding: 80px 120px;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+  }
+  
+  .footer .fentech {
+    flex: 1;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+    align-items: start;
+    justify-content: start;
+  }
+  .footer .quick-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: start;
+    padding: 0 0 0 180px;
+  }
+  .footer .quick-links .header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .footer .quick-links ul li {
+    list-style: none;
+    margin-bottom: 13px;
+  }
+  .footer .quick-links ul li a {
+    text-decoration: none;
+    color: #9f9f9f;
+  }
+  .footer .quick-links ul li a:hover {
+    color: white;
+  }
+  
+  .footer .product-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: start;
+    padding: 0;
+  }
+  .footer .product-list .header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .footer .product-list ul li {
+    list-style: none;
+    margin-bottom: 13px;
+  }
+  .footer .product-list ul li a {
+    text-decoration: none;
+    color: #9f9f9f;
+  }
+  .footer .product-list ul li a:hover {
+    color: white;
+  }
+  
+  .footer .mobile {
+    flex: 1;
+    color: white;
+  }
+  .footer .mobile p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .footer .mobile img {
+    border: 4px solid white;
+    height: 40%;
+  }
+  .footer .banner{
+      position: absolute;
+      bottom: 0;
+      height: 80px;
+      background-color: #0a3000;
+      width: 100%;
+      margin-left: -120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+  }
+  .footer .banner p{
+      font-weight: 300;
+  }
+
+
+
+
+
+
+
+
+  
+@media screen and (max-width: 550px) {
+  .top-header {
+    display: none;
+  }
+
+  .why-choose-fentech-header {
+    height: 40vh;
+  }
+
+  
+  .wrapper{
+    padding: 60px 10px;
+    gap: 80px;
+}
+
+.wrapper .flexbox1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    gap: 40px;
+}
+
+
+.wrapper .flexbox2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+}
+.wrapper .flexbox2 .leftside .flexgrid .feature-card{
+  height: auto;
+  width: 100%;
+}
+.wrapper .flexbox2 .rightside{
+  flex: auto;
+  width: 100%;
+  height: 40vh;
+  /* overflow: hidden; */
+}
+.wrapper .flexbox2 .rightside img{
+  object-fit: cover;
+}
+.wrapper .benefits{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 40vh;
+}
+.wrapper .benefits h1{
+    color: #2a541f;
+    font-size: 24px;
+    font-weight: 800;
+}
+.wrapper .benefits p{
+    color: #6e6e6e;
+}
+
+
+
+  .contact-us {
+    height: 100vh;
+    padding: 40px 20px;
+  }
+  .contact-us .grid {
+    grid-template-columns: 99%;
+    /* grid-template-rows: auto auto;s */
+  }
+
+  .footer {
+    height: 90vh;
+    padding: 80px 10px;
+  }
+  .footer .fentech img {
+    width: 50%;
+  }
+  .footer .quick-links {
+    display: none;
+  }
+  .footer .product-list {
+    display: none;
+  }
+  .footer .mobile {
+    display: none;
+  }
+  .footer .banner {
+    margin-left: -10px;
+  }
+  .footer .banner p {
+    font-weight: 300;
+  }
+}
